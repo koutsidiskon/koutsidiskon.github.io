@@ -216,14 +216,6 @@
           </p>
         </section>
 
-        <!-- Download CV Button -->
-        <section class="about-text" style="margin-top: 20px;">
-          <a href="./assets/cv/CV_Koutsidis Konstantinos.pdf" download class="form-btn" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none;">
-            <ion-icon name="download-outline" style="font-size: 20px;"></ion-icon>
-            <span>Download CV</span>
-          </a>
-        </section>
-
 
         <!--
           - service
@@ -491,60 +483,77 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">Technical Skills</h3>
+          <div class="title-wrapper" style="margin-bottom: 20px;">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Technical Skills</h3>
+          </div>
 
           <ul class="skills-list content-card">
 
             <li class="skills-item">
-
               <div class="title-wrapper">
+                <ion-icon name="code-working-outline" style="font-size: 20px; color: var(--orange-yellow-crayola); margin-right: 8px;"></ion-icon>
                 <h5 class="h5">Programming Languages</h5>
               </div>
-
-              <p class="timeline-text" style="margin-top: 8px;">
-                C, C++, Java, Python, C#
-              </p>
-
+              <div class="skill-tags" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;">
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">C</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">C++</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Java</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Python</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">C#</span>
+              </div>
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
+                <ion-icon name="server-outline" style="font-size: 20px; color: var(--orange-yellow-crayola); margin-right: 8px;"></ion-icon>
                 <h5 class="h5">Data Management</h5>
               </div>
-
-              <p class="timeline-text" style="margin-top: 8px;">
-                MySQL, PostgreSQL, Pandas
-              </p>
-
+              <div class="skill-tags" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;">
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">MySQL</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">PostgreSQL</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Pandas</span>
+              </div>
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
+                <ion-icon name="globe-outline" style="font-size: 20px; color: var(--orange-yellow-crayola); margin-right: 8px;"></ion-icon>
                 <h5 class="h5">Web & Frameworks</h5>
               </div>
-
-              <p class="timeline-text" style="margin-top: 8px;">
-                Spring, Web Services, JavaScript, Unity, OpenGL
-              </p>
-
+              <div class="skill-tags" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;">
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Spring</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Web Services</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">JavaScript</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Unity</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">OpenGL</span>
+              </div>
             </li>
 
             <li class="skills-item">
-
               <div class="title-wrapper">
+                <ion-icon name="laptop-outline" style="font-size: 20px; color: var(--orange-yellow-crayola); margin-right: 8px;"></ion-icon>
                 <h5 class="h5">Operating Systems</h5>
               </div>
-
-              <p class="timeline-text" style="margin-top: 8px;">
-                Ubuntu, Microsoft Windows, macOS
-              </p>
-
+              <div class="skill-tags" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;">
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Ubuntu</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">Microsoft Windows</span>
+                <span class="tag" style="background: var(--border-gradient-onyx); padding: 6px 14px; border-radius: 8px; font-size: 14px;">macOS</span>
+              </div>
             </li>
 
           </ul>
 
+        </section>
+
+        <!-- Download CV Button -->
+        <section style="margin-top: 30px; text-align: center;">
+          <a href="./assets/cv/CV_Koutsidis Konstantinos.pdf" download class="form-btn" style="display: inline-flex; align-items: center; gap: 10px; text-decoration: none; padding: 14px 30px;">
+            <ion-icon name="download-outline" style="font-size: 22px;"></ion-icon>
+            <span style="font-size: 16px; font-weight: 600;">Download Full CV</span>
+          </a>
         </section>
 
       </article>
