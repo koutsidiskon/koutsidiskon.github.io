@@ -875,6 +875,118 @@ main {
   #PORTFOLIO
 \*-----------------------------------*/
 
+/*--- Featured Project Card ---*/
+
+.featured-project {
+  background: var(--bg-gradient-jet);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.featured-project-img-link { display: block; }
+
+.featured-project-img {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.featured-project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-1);
+}
+
+.featured-project-img-link:hover .featured-project-img img { transform: scale(1.04); }
+
+.featured-project-content { padding: 20px; }
+
+.featured-badge {
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.featured-project-title {
+  color: var(--white-2);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-500);
+  margin: 6px 0 2px;
+}
+
+.featured-project-category {
+  color: var(--light-gray-70);
+  font-size: var(--fs-7);
+  margin-bottom: 14px;
+}
+
+.featured-project-desc {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.featured-project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.featured-project-tech span {
+  background: var(--onyx);
+  color: var(--light-gray);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-500);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid hsla(0, 0%, 100%, 0.07);
+}
+
+.featured-project-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.featured-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 20px;
+  border-radius: 10px;
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+  text-decoration: none;
+  transition: var(--transition-1);
+}
+
+.github-link {
+  background: var(--jet);
+  color: var(--white-2);
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.github-link:hover { background: hsla(0, 0%, 100%, 0.1); }
+
+.live-link {
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+}
+
+.live-link:hover { opacity: 0.85; }
+
+.featured-link ion-icon { font-size: 15px; }
+
+/*--- End Featured Project Card ---*/
+
 .filter-list { display: none; }
 
 .filter-select-box {
