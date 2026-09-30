@@ -898,7 +898,6 @@ main {
   height: 320px;
   overflow: hidden;
   margin: 0;
-  background: var(--eerie-black-1);
 }
 
 .thesis-project-cover img {
@@ -906,7 +905,10 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: var(--transition-1);
 }
+
+.thesis-project-cover:hover img { transform: scale(1.04); }
 
 .thesis-project-content {
   padding: 20px;
