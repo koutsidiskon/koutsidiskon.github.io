@@ -889,6 +889,26 @@ main {
   background: var(--bg-gradient-jet);
   border: 1px solid var(--jet);
   border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.thesis-project-cover {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  margin: 0;
+  background: var(--eerie-black-1);
+}
+
+.thesis-project-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.thesis-project-content {
   padding: 20px;
 }
 
